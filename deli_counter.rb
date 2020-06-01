@@ -1,5 +1,3 @@
-require 'pry'
-
 def line(array)
   #binding.pry
   # each name is in the array 
