@@ -21,7 +21,8 @@ def take_a_number(array, name)
 end
 
 def now_serving(array, name)
-  
+  array.shift
+  puts "Currently serving "
   if array.length > 0 
   puts "Currently serving #{array.shift}."
 else
